@@ -7,5 +7,16 @@
         <body>
             <h1> "Baseball" </h1>
             <p> "it's a great game"</p>
+            {% if likes_same_sport == True %}
+                <p>
+
+                </p>
+
+            <ul>
+                 {% for player in player %} 
+                <li>  {{player}} </li>
+                 {% endfor %} 
+            </ul>
         </body>
     </html>
+    
